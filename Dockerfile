@@ -47,5 +47,5 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-${CONDA_VERSION}
     # && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda \
     # && conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/ \
     && conda config --add channels conda-forge \
-    && conda install sra-tools samtools hisat2 stringtie bioconductor-ballgown r-dplyr r-data.table \
+    && conda install sra-tools samtools hisat2 stringtie \
     && conda install -c hcc aspera-cli -y
